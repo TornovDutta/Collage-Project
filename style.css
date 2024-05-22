@@ -1,0 +1,263 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+}
+
+/* nav bar */
+.nav{
+    height: 80px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    background-color: white;
+    
+}
+.nav-name p{
+    margin-top:10px;
+    margin-left: 50px;
+    font-size: 2rem;
+    font-family:monospace;
+}
+a{
+    font-size:1rem;
+    text-decoration: none;
+    color:#475466;
+    padding:50px;
+}
+a:hover{
+    color:black;
+}
+
+/* home page */
+.home{
+    height:600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.home-photo{
+    height: 300px;
+    width:300px;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 10px 10px 8px 10px #888888;
+    
+}
+
+.home-name p{
+    color:black;
+    font-size:1.5rem;
+    
+    
+}
+.home-wrapper {
+    height: 10px;
+    display: grid;
+    place-items: center;
+  }
+  
+  .home-typing {
+    color:rgb(153, 152, 151);
+    width: 51ch;
+    animation: typing 4s steps(51), blink .5s infinite alternate ;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #475466;
+  
+    font-size: 1em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+#home-name-second{
+    font-size: 1rem;
+}
+h1{
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* skill */
+.skill{
+  height: 600px;
+}
+
+.skill-heading{
+  height: 10%;
+  width: 30%;
+  margin-left: 36%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.skill-main{
+  height: 90%;
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.skill-main-element{
+  height:200px;
+  width: 375px;
+  
+}
+.skill-main-img{
+  height: 80px;
+  width: 80px;
+  margin-left: 50%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  border-radius: 25%;
+}
+.skill-main-element p{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  font-size: .7rem;
+  color:#888888;
+  text-align: center;
+}
+
+
+
+/* education */
+.education{
+  height:600px;
+
+}
+.education-heading{
+  height: 10%;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  margin-left: 30px;
+  color:rgb(7, 242, 143);
+}
+.education-main{
+  height: 90%;
+  display:flex;
+}
+.education-line{
+  height: 100%;
+  width: 15%;
+}
+.line{
+  margin-left: 100px;
+  height: 80%;
+  width: 1px;
+  border: 1px solid #888888;
+  background-color: #888888;
+}
+.circle1{
+  position:absolute;
+  top: 1350px;
+  margin-left:93px ;
+  height: 20px;
+  width: 20px;
+  background-color:  rgb(7, 242, 143);
+  border-radius: 50%;
+}
+.circle2{
+  position:absolute;
+  top: 1500px;
+  margin-left:93px ;
+  height: 20px;
+  width: 20px;
+  background-color:rgb(7, 242, 143);
+  border-radius: 50%;
+}
+.circle3{
+  position:absolute;
+  top: 1650px;
+  margin-left:93px ;
+  height: 20px;
+  width: 20px;
+  background-color:rgb(7, 242, 143);
+  border-radius: 50%;
+}
+.education-deatils{
+  height: 100%;
+  width: 100%;
+}
+.education-element{
+  margin-top: 20px;
+  margin-left: 10px;
+  height: 15%;
+  width: 70%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px 15px 30px 50px;
+
+}
+.education-element:hover{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.education-element h1{
+  font-size: 1.5rem;
+}
+.education-element p{
+  color:#888888;
+}
+#year{
+  color:rgb(7, 242, 143);
+  font-size: 1.1rem;
+}
+
+
+/* contact */
+.contact-frame{
+  height: 600px;
+  /* background-color: aqua; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact{
+  margin-top: 50px;
+  height: 500px;
+  width: 95%;
+  background-color: white;
+  border-radius: 2%;
+  padding-left: 50px;
+}
+.contact-link{
+  height: 90%;
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.contact-link h1{
+  text-align: center;
+}
+.contct-option a{
+  height: 5%;
+  width: 150px;
+  display:flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  
+}
+
+
+
+
+/* footer */
+footer{
+  height: 300px;
+  background-color: #1D2939;
+}
