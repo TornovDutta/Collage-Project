@@ -103,28 +103,38 @@
 
 
     <!-- contact -->
+    <a id="Contact"></a>
+    <h1 style="text-align: center;">Contact Me</h1>
+    <div class="outerbox">
+        <div class="contact-frame">
+            <div class="contact-form">
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
     
-    <div class="contact-frame">
-        <div class="contact-link">
-            <a id="Contact"></a>
-            <h1>Contact Me</h1>
-            <div class="contact">
-                <div class="contct-option">
-                    <a href="https://www.linkedin.com/in/tornov-dutta-122b69306/"><i class="fa-brands fa-linkedin"></i><p>linkedin</p></a>
-                </div>
-                <div class="contct-option">
-                    <a href="https://twitter.com/TornovDutta"><i class="fa-brands fa-x-twitter"></i><p>twitter</p></a>
-                </div>
-                <div class="contct-option">
-                    <a href="https://www.instagram.com/tornovdutta/"><i class="fa-brands fa-instagram"></i><p>instagram</p></a>
-                </div>
-                <div class="contct-option">
-                    <a href="https://www.facebook.com/profile.php?id=61559123010209"><i class="fa-brands fa-facebook"></i><p>FaceBook</p></a>
-                </div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+    
+                    <button type="submit">Send</button>
+                </form>
             </div>
+                
         </div>
+    
     </div>
+
+
+
+    
+    
     <footer>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
